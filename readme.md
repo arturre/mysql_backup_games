@@ -22,7 +22,7 @@
 Please note that you need chefdk only because of berkshelf to download cookbook dependencies
 * install community chef cookbooks 
 ```bash
-cd cookbooks/glrl && berks vendor ../
+pushd cookbooks/glrl && berks vendor ../ && popd
 ```
 * Deploy VMs by running 
 ```bash
