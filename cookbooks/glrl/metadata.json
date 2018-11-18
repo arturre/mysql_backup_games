@@ -1,0 +1,40 @@
+{
+  "name": "glrl",
+  "description": "Installs/Configures glrl",
+  "long_description": "Installs/Configures glrl",
+  "maintainer": "Artur",
+  "maintainer_email": "artur.reznikov@gmail.com`",
+  "license": "All Rights Reserved",
+  "platforms": {
+
+  },
+  "dependencies": {
+    "nfs": "~> 2.6.3",
+    "mysql": "~> 8.5.1",
+    "lvm": "~> 4.5.1"
+  },
+  "providing": {
+
+  },
+  "attributes": {
+
+  },
+  "recipes": {
+
+  },
+  "version": "0.1.0",
+  "source_url": "",
+  "issues_url": "",
+  "privacy": false,
+  "chef_versions": [
+    [
+      ">= 13.0"
+    ]
+  ],
+  "ohai_versions": [
+
+  ],
+  "gems": [
+
+  ]
+}
